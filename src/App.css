@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Crimson-Bold';
+    src: url('src/assets/fonts/Crimson/CrimsonText-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Crimson-Bold-Italic';
+    src: url('src/assets/fonts/Crimson/CrimsonText-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Crimson-Italic';
+    src: url('src/assets/fonts/Crimson/CrimsonText-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Crimson-Regular';
+    src: url('src/assets/fonts/Crimson/CrimsonText-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Crimson-Semi-Bold';
+    src: url('src/assets/fonts/Crimson/CrimsonText-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Crimson-Semi-Bold-Italic';
+    src: url('src/assets/fonts/Crimson/CrimsonText-SemiBoldItalic.ttf') format('truetype');
+}
+
+body{
+    font-family: "Crimson-Regular";
+}
+
+.navh2 {
+    font-family: 'Crimson-bold';
+}
