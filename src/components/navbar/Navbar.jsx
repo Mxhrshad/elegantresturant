@@ -37,7 +37,7 @@ export default function Navbar() {
 
                 <div className="absolute left-1/2 transform -translate-x-1/2 text-center">
                     <Link to="/" className="cursor-pointer"> {/* Made the title a link to home */}
-                        <h2 className="text-lg md:text-2xl font-bold text-gray-900 hover:scale-105 transition duration-300 navh2">
+                        <h2 className="text-lg md:text-2xl font-bold text-gray-900 hover:scale-105 transition duration-300 navbarh2">
                             ELEGANT
                         </h2>
                     </Link>
