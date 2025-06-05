@@ -9,7 +9,7 @@ const menuCategories = [
 
 export default function MenuCategories() {
     return (
-        <div className="w-full min-h-screen flex flex-col items-center justify-center py-16 sm:py-20 md:py-24 px-4 text-center">
+        <div className="w-full min-h-screen flex flex-col items-center justify-center py-16 sm:py-20 md:py-24 px-4 text-center bg-gray-100">
             <h2 className="menucategoriesh2 text-3xl sm:text-4xl md:text-5xl font-semibold text-gray-800">
                 Our Menu
             </h2>
@@ -34,10 +34,10 @@ export default function MenuCategories() {
                             ></div>
                             <div className="absolute inset-0 bg-black/50 group-hover:bg-black/30 transition-colors duration-300"></div>
                             <div className="relative z-10 w-full h-full flex flex-col justify-end p-5">
-                                <h2 className="text-white font-bold text-3xl tracking-wide uppercase">
+                                <h2 className="text-white font-bold text-3xl tracking-wide uppercase menucategoriesh2">
                                     {category.name}
                                 </h2>
-                                <p className="text-gray-200 text-sm mt-2 opacity-0 transform translate-y-3 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 ease-in-out delay-75 group-hover:delay-100">
+                                <p className="text-gray-200 text-sm mt-2 opacity-0 transform translate-y-3 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 ease-in-out delay-75 group-hover:delay-100 menucategoriesp">
                                     {category.description}
                                 </p>
                             </div>
