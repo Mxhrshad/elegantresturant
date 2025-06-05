@@ -1,4 +1,45 @@
 {
+  "appetizers": [
+    {
+      "id": "a1",
+      "name": "Truffle Arancini",
+      "description": "Crispy risotto balls infused with black truffle and filled with fontina cheese",
+      "price": 18,
+      "isVegetarian": true,
+      "isGlutenFree": false,
+      "isVegan": false,
+      "isChefRecommended": true,
+      "isTodaySpecial": false,
+      "rating": 4.8,
+      "image": "https://readdy.ai/api/search-image?query=Gourmet%20truffle%20arancini%20with%20crispy%20golden%20exterior%20and%20creamy%20risotto%20interior%2C%20garnished%20with%20microgreens%20and%20truffle%20shavings%20on%20an%20elegant%20black%20plate%20with%20soft%20restaurant%20lighting%20and%20blurred%20background&width=300&height=300&seq=a1img&orientation=squarish"
+    },
+    {
+      "id": "a4",
+      "name": "Seared Scallops",
+      "description": "Pan-seared scallops with cauliflower puree, pancetta, and brown butter sauce",
+      "price": 24,
+      "isVegetarian": false,
+      "isGlutenFree": true,
+      "isVegan": false,
+      "isChefRecommended": true,
+      "isTodaySpecial": false,
+      "rating": 4.9,
+      "image": "https://readdy.ai/api/search-image?query=Perfectly%20seared%20scallops%20with%20golden%20crust%20on%20smooth%20cauliflower%20puree%2C%20topped%20with%20crispy%20pancetta%20and%20drizzled%20with%20brown%20butter%20sauce%2C%20garnished%20with%20microgreens%20on%20an%20elegant%20plate%20with%20soft%20restaurant%20lighting%20and%20blurred%20background&width=300&height=300&seq=a4img&orientation=squarish"
+    },
+    {
+      "id": "a5",
+      "name": "Foie Gras Terrine",
+      "description": "House-made foie gras terrine with brioche toast, fig jam, and port wine reduction",
+      "price": 28,
+      "isVegetarian": false,
+      "isGlutenFree": false,
+      "isVegan": false,
+      "isChefRecommended": true,
+      "isTodaySpecial": false,
+      "rating": 4.8,
+      "image": "https://readdy.ai/api/search-image?query=Luxurious%20foie%20gras%20terrine%20slices%20with%20toasted%20brioche%2C%20fig%20jam%20quenelle%2C%20and%20port%20wine%20reduction%20drizzle%2C%20garnished%20with%20microgreens%20on%20an%20elegant%20black%20slate%20with%20soft%20restaurant%20lighting%20and%20blurred%20background&width=300&height=300&seq=a5img&orientation=squarish"
+    }
+  ],
   "main": [
     {
       "id": "m1",

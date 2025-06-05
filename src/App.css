@@ -44,6 +44,14 @@ body{
         font-family: 'Crimson-bold';
 }
 
-menucategoriesp{
+.menucategoriesp{
+    font-family: "Crimson-Regular";
+}
+
+.chefsrecommendationsh2{
+    font-family: "Crimson-Bold";
+}
+
+.chefsrecommendationsp{
     font-family: "Crimson-Regular";
 }
