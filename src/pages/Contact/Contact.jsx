@@ -1,12 +1,12 @@
-import AboutSection from "../../components/aboutsection/aboutsection";
+import ContactSection from "../../components/contactsection/contactsection";
 import Footer from "../../components/footer/footer";
 import Navbar from "../../components/Navbar/navbar";
 
-export default function About(){
+export default function Contact(){
     return(
         <div>
             <Navbar />
-            <AboutSection />
+            <ContactSection />
             <Footer />
         </div>
     )
