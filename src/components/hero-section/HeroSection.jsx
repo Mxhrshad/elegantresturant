@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 export default function HeroSection() {
     return (
         <div className="w-full h-[88vh] relative bg-[url('/images/background.jpg')] bg-cover bg-center">
@@ -11,7 +13,7 @@ export default function HeroSection() {
                         Experience the perfect harmony of flavor, presentation, and ambiance at Elegance. Our master chefs craft each dish with passion and precision.
                     </p>
                     <div className="flex flex-col sm:flex-row items-center sm:items-stretch gap-4 sm:gap-6">
-                        <button className="w-full sm:w-auto px-6 py-3 bg-orange-700 hover:bg-orange-600 text-white text-sm sm:text-base font-medium rounded-lg shadow-md flex items-center justify-center transition duration-300 transform hover:scale-105">
+                        <Link to="/menu" className="w-full sm:w-auto px-6 py-3 bg-orange-700 hover:bg-orange-600 text-white text-sm sm:text-base font-medium rounded-lg shadow-md flex items-center justify-center transition duration-300 transform hover:scale-105">
                             View Menu
                             <svg 
                                 className="w-5 h-5 ml-2"
@@ -21,10 +23,10 @@ export default function HeroSection() {
                             >
                                 <path d="M14.707,20.707a1,1,0,0,1-1.414-1.414L19.586,13H2a1,1,0,0,1,0-2H19.586L13.293,4.707a1,1,0,0,1,1.414-1.414l8,8a1,1,0,0,1,.216.325.986.986,0,0,1,0,.764,1,1,0,0,1-.216.325Z"></path>
                             </svg>
-                        </button>
-                        <button className="w-full sm:w-auto px-6 py-3 text-white text-sm sm:text-base font-medium rounded-lg border-2 border-white hover:bg-white hover:text-gray-900 transition duration-300 transform hover:scale-105">
+                        </Link>
+                        <Link to="/about" className="w-full sm:w-auto px-6 py-3 text-white text-sm sm:text-base font-medium rounded-lg border-2 border-white hover:bg-white hover:text-gray-900 transition duration-300 transform hover:scale-105">
                             Our Story
-                        </button>
+                        </Link>
                     </div>
                 </div>
                 <div className="hidden md:flex md:w-2/5 lg:w-1/2 h-full">
