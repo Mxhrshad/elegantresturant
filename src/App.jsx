@@ -9,6 +9,7 @@ import Appetizers from './pages/appetizers/Appetizers'
 import MainCourses from './pages/MainCourses/MainCourses'
 import Desserts from './pages/Desserts/Desserts'
 import Beverages from './pages/Beverages/Beverages'
+import ProductPage from './pages/Product/ProductPage'
 
 export default function App() {
 
@@ -23,6 +24,7 @@ export default function App() {
       <Route path='/menu/maincourses' element={<MainCourses />} />
       <Route path='/menu/desserts' element={<Desserts />} />
       <Route path='/menu/beverages' element={<Beverages />} />
+      <Route path='/product/:id' element={<ProductPage />} />
     </Routes>
   )
 }
