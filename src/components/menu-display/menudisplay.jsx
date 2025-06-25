@@ -52,11 +52,11 @@ export default function MenuDisplay() {
   const categoryKeys = menuData ? ['All', ...Object.keys(menuData)] : ['All'];
 
   if (loading) {
-    return <div className="text-center py-20">Loading menu...</div>;
+    return <div className="text-center py-20 text-xl text-gray-700">Loading menu...</div>;
   }
 
   if (error) {
-    return <div className="text-center py-20 text-red-500">Error: {error}</div>;
+    return <div className="text-center py-20 text-xl text-red-500">Error: {error}</div>;
   }
 
   return (

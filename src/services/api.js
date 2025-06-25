@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const apiClient = axios.create({
-  baseURL: 'data/db.json',
+  baseURL: '/data/db.json',
 });
 
 export async function getEntireMenuData() {
