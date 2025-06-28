@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Footer from "../../components/footer/Footer";
-import MenuDisplay from "../../components/menu-display/Menudisplay";
+import MenuDisplay from "../../components/menu-display/MenuDisplay";
 import Navbar from "../../components/navbar/Navbar";
 import { getEntireMenuData } from "../../services/api";
 

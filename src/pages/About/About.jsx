@@ -1,4 +1,4 @@
-import AboutSection from "../../components/aboutsection/Aboutsection";
+import AboutSection from "../../components/aboutsection/AboutSection";
 import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/navbar/Navbar";
 
