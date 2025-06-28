@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Footer from "../../components/footer/footer";
 import MenuDisplay from "../../components/menu-display/menudisplay";
-import Navbar from "../../components/Navbar/navbar";
+import Navbar from "../../components/navbar/Navbar";
 import { getEntireMenuData } from "../../services/api";
 
 export default function Menu() {

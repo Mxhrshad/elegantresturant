@@ -3,7 +3,7 @@ import Footer from "../../components/footer/footer";
 import HeroSection from "../../components/hero-section/HeroSection";
 import MenuCategories from "../../components/menu-categories/menucategories";
 import MenuItemsDisplay from "../../components/menu-items-display/menuitemsdisplay";
-import Navbar from "../../components/Navbar/navbar";
+import Navbar from "../../components/navbar/Navbar";
 
 export default function Home() {
     return (

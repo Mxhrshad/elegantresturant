@@ -1,5 +1,5 @@
 import Footer from "../../components/footer/footer";
-import Navbar from "../../components/Navbar/navbar";
+import Navbar from "../../components/navbar/Navbar";
 import ReservationSection from "../../components/reservationsection/reservationsection";
 
 export default function Reservation(){
