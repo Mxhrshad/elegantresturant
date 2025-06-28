@@ -1,5 +1,5 @@
-import AboutSection from "../../components/aboutsection/aboutsection";
-import Footer from "../../components/footer/footer";
+import AboutSection from "../../components/aboutsection/Aboutsection";
+import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/navbar/Navbar";
 
 export default function About(){
