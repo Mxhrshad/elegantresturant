@@ -1,4 +1,4 @@
-import Footer from '../../components/footer/Footer.jsx';
+import Footer from "../../components/footer/Footer";
 import Navbar from "../../components/navbar/Navbar";
 import ReservationSection from "../../components/reservationsection/ReservationSection";
 
