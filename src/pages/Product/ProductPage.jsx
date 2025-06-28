@@ -1,4 +1,4 @@
-import Footer from "../../components/footer/Footer";
+import Footer from '../../components/footer/Footer';
 import Navbar from "../../components/navbar/Navbar";
 import Product from "../../components/product/Product";
 
