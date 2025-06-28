@@ -1,4 +1,4 @@
-import Footer from "../../components/footer/footer";
+import Footer from "../../components/footer/Footer";
 import MainCoursesSection from "../../components/maincoursesection/MainCoursesSection";
 import Navbar from "../../components/navbar/Navbar";
 

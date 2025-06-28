@@ -1,8 +1,8 @@
-import ChefsRecommendations from "../../components/chefs-recommendations/chefsrecommendations";
-import Footer from "../../components/footer/footer";
+import ChefsRecommendations from "../../components/chefs-recommendations/Chefsrecommendations";
+import Footer from "../../components/footer/Footer";
 import HeroSection from "../../components/hero-section/HeroSection";
-import MenuCategories from "../../components/menu-categories/menucategories";
-import MenuItemsDisplay from "../../components/menu-items-display/menuitemsdisplay";
+import MenuCategories from "../../components/menu-categories/Menucategories";
+import MenuItemsDisplay from "../../components/menu-items-display/Menuitemsdisplay";
 import Navbar from "../../components/navbar/Navbar";
 
 export default function Home() {
