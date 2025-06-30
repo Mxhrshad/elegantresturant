@@ -1,4 +1,4 @@
-import ChefsRecommendations from "../../components/chefs-recommendations/ChefsRecommendations";
+import ChefsRecommendations from "../../components/chefsrecommendations/ChefsRecommendations";
 import Footer from "../../components/footer/Footer";
 import HeroSection from "../../components/hero-section/HeroSection";
 import MenuCategories from "../../components/menu-categories/MenuCategories";
