@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { getMainCourses } from '../../services/api';
-import ProductItem from '../productItem/ProductIem';
+import ProductItem from '../ProductItem/ProductIem';
 
 export default function MainCoursesSection() {
   const [items, setItems] = useState([]);

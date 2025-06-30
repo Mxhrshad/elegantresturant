@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { getAppetizers } from '../../services/api';
-import ProductItem from '../productItem/ProductIem';
+import ProductItem from '../ProductItem/ProductIem';
 
 export default function AppetizersSection() {
   const [items, setItems] = useState([]);

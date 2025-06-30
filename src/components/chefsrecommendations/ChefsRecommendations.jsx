@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { getEntireMenuData } from '../../services/api';
-import ProductItem from '../productItem/ProductIem';
+import ProductItem from '../ProductItem/ProductIem';
 
 
 const INITIAL_DISPLAY_COUNT = 3;

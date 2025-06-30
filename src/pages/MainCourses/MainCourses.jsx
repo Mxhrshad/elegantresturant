@@ -1,6 +1,7 @@
-import Footer from "../../components/footer/Footer";
-import MainCoursesSection from "../../components/maincoursesection/MainCoursesSection";
-import Navbar from "../../components/navbar/Navbar";
+import Footer from "../../components/Footer/Footer";
+import MainCoursesSection from "../../components/MainCourseSection/MainCoursesSection";
+import Navbar from "../../components/Navbar/Navbar";
+
 
 export default function MainCourses(){
     return(

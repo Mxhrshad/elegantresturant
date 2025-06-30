@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ProductItem from "../productItem/ProductIem";
+import ProductItem from "../ProductItem/ProductIem";
 
 const filterOptions = [
   { label: "All", key: "All" },

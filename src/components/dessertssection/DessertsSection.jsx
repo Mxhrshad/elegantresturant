@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { getDesserts } from '../../services/api';
-import ProductItem from '../productItem/ProductIem';
+import ProductItem from '../ProductItem/ProductIem';
 
 export default function DessertsSection() {
   const [items, setItems] = useState([]);

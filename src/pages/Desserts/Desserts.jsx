@@ -1,6 +1,7 @@
-import DessertsSection from "../../components/dessertssection/DessertsSection";
-import Footer from "../../components/footer/Footer";
-import Navbar from "../../components/navbar/Navbar";
+import DessertsSection from "../../components/DessertsSection/DessertsSection";
+import Footer from "../../components/Footer/Footer";
+import Navbar from "../../components/Navbar/Navbar";
+
 
 export default function Desserts(){
     return(

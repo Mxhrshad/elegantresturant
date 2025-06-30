@@ -1,9 +1,9 @@
-import ChefsRecommendations from "../../components/chefsrecommendations/ChefsRecommendations";
-import Footer from "../../components/footer/Footer";
-import HeroSection from "../../components/hero-section/HeroSection";
-import MenuCategories from "../../components/menu-categories/MenuCategories";
-import MenuItemsDisplay from "../../components/menu-items-display/MenuItemsDisplay";
-import Navbar from "../../components/navbar/Navbar";
+import ChefsRecommendations from "../../components/ChefsRecommendations/ChefsRecommendations";
+import Footer from "../../components/Footer/Footer";
+import HeroSection from "../../components/HeroSection/HeroSection";
+import MenuCategories from "../../components/MenuCategories/MenuCategories";
+import MenuItemsDisplay from "../../components/menuItemsDisplay/MenuItemsDisplay";
+import Navbar from "../../components/Navbar/Navbar";
 
 export default function Home() {
     return (

@@ -1,6 +1,6 @@
-import BeveragesSection from "../../components/beveragessection/BeveragesSection";
-import Footer from "../../components/footer/Footer";
-import Navbar from "../../components/navbar/Navbar";
+import BeveragesSection from "../../components/BeveragesSection"
+import Footer from "../../components/Footer/Footer";
+import Navbar from "../../components/Navbar/Navbar";
 
 export default function Beverages(){
     return(

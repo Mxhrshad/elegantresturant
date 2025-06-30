@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import Footer from "../../components/footer/Footer";
-import MenuDisplay from "../../components/menu-display/MenuDisplay";
-import Navbar from "../../components/navbar/Navbar";
+import MenuDisplay from "../../components/menuDisplay/MenuDisplay";
 import { getEntireMenuData } from "../../services/api";
+import Footer from "../../components/Footer/Footer";
+import Navbar from "../../components/Navbar/Navbar";
 
 export default function Menu() {
     const [menuData, setMenuData] = useState({});
